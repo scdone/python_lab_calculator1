@@ -63,11 +63,11 @@ while True:
     elif operator == "mod":
         result = mod(float(num1), float(num2))
 
-    # elif operator == "x+":
-    #     result = add_mult(float(num1), float(num2), float(num3))
+    elif operator == "x+":
+        result = add_mult(float(num1), float(num2), float(num3))
 
-    # elif operator == "cubes+":
-    #     result = add_cubes(float(num1), float(num2))
+    elif operator == "cubes+":
+        result = add_cubes(float(num1), float(num2))
 
     else:
         result = "Please enter an operator followed by two integers."
